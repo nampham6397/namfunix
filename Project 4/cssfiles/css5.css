@@ -1,0 +1,316 @@
+.thumbnail > img {
+    width: 100%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.active {
+    color: orange!important;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+.footer h4 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.copy {
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+/*-----------------------OUR BUSINESS-------------------------*/
+#title {
+    text-align: center;
+}
+#icon1 {
+    color: blue;
+}
+a:hover {
+    text-decoration: none!important;
+    background-color: antiquewhite;
+}
+
+@media (min-width: 1024px) {
+    .bg-light {
+        background-color: #007bff !important;
+    }
+
+    h2.icon {
+        position: relative;
+        left: 100px;
+        font-size: 35px;
+        color: white !important;
+    }
+
+    ul.navbar-nav.ml-auto {
+        position: relative;
+        right: 60px;
+        font-size: 15px;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .active {
+        color: orange !important;
+    }
+
+    li.nav-item {
+        color: white !important;
+    }
+
+    img.img-responsive.a1 {
+        height: 372px;
+    }
+
+    .icon-parent {
+        position: relative;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 80px;
+        left: -30px;
+        border: 2px solid none;
+        border-radius: 70px;
+
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 170px;
+        left: -30px;
+        border-radius: 70px;
+        border: 2px solid none;
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+
+    .form-control {
+        font-size: 10px;
+    }
+
+    .form-control.box {
+        width: 100%;
+    }
+
+    .btn1 {
+        position: absolute;
+        left: 260px;
+        top: 180px;
+        background-color: orange;
+        color: white;
+    }
+
+    .input-1 {
+        background-color: black;
+        border: none;
+    }
+
+    input.input-2 {
+        float: right;
+    }
+    
+    .fa-window-minimize {
+        color: blue;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+
+    .bg-light {
+        background-color: #007bff !important;
+    }
+
+    h2.icon {
+        color: white !important;
+    }
+
+    span.input-group-btn {
+        color: white;
+        position: relative;
+        top: 3px;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .active {
+        color: orange !important;
+    }
+
+    .form-control {
+        font-size: 8px;
+    }
+
+    .btn1 {
+        position: absolute;
+        background-color: orange;
+        color: white;
+        left: 180px;
+        top: 150px;
+    }
+
+    .icon-parent {
+        position: relative;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 80px;
+        left: 10px;
+        border: 2px solid none;
+        border-radius: 70px;
+
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        border-radius: 70px;
+        border: 2px solid none;
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        top: 30px;
+        left: 80px;
+    }
+
+    .input-1 {
+        background-color: black;
+        border: none;
+    }
+
+    .input-2 {
+        float: right;
+    }
+    
+    .button2 {
+        width: 40%!important;
+    }
+    
+    td {
+        border: 1px solid black!important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-dark.navbar-brand {
+        color: black !important;
+    }
+
+    .btn {
+        position: absolute;
+        color: white !important;
+        width: 120px !important;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0;
+        bottom: 85px;
+    }
+
+    .a1 {
+        height: 500px
+    }
+
+    .icon-parent {
+        position: relative;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        border: 2px solid none;
+        border-radius: 70px;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .icon2 {
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        border-radius: 70px;
+        border: 2px solid none;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        top: 10px;
+        left: 80px;
+    }
+
+    .input-1 {
+        background-color: black;
+        border: none;
+    }
+
+    .input-2 {
+        float: right;
+    }
+
+    .map {
+        position: relative;
+        bottom: -35px;
+        height: 100px !important;
+    }
+    
+    .container {
+        padding: 10px!important;
+    }
+    
+    .footer {
+        padding: 10px;
+    }
+    
+    .button2{
+        position: absolute;
+        bottom: -22px;
+        height: 35px;
+        padding-bottom: 20px;
+    }
+    
+    #anh1 {
+        width: 80%
+    }
+}
+
